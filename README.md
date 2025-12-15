@@ -1,0 +1,2 @@
+# 18A2_Nhom_06_Case_07
+CASE STUDY 07 - PHÂN TÍCH KHÁCH SẠN / DU LỊCH VIỆT NAM
