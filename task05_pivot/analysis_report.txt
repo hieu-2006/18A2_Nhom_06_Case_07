@@ -1,0 +1,45 @@
+BÁO CÁO PHÂN TÍCH PIVOT TABLE
+==================================================
+
+1. GIÁ PHÒNG TRUNG BÌNH THEO THÀNH PHỐ VÀ LOẠI PHÒNG
+room_type        Deluxe   Standard         Suite          TỔNG
+city                                                          
+Hà Nội     7.000000e+05  1500000.0  1.200000e+06  1.031034e+06
+TP.HCM     1.200000e+06        0.0  1.080000e+06  1.122581e+06
+Đà Nẵng    1.057143e+06  1500000.0  0.000000e+00  1.200000e+06
+TỔNG       9.166667e+05  1500000.0  1.133333e+06  1.098333e+06
+
+2. SỐ LƯỢNG BOOKING THEO THÀNH PHỐ VÀ LOẠI PHÒNG
+room_type  Deluxe  Standard  Suite  TỔNG
+city                                    
+Hà Nội         28        14     16    58
+TP.HCM         11         0     20    31
+Đà Nẵng        21        10      0    31
+TỔNG           60        24     36   120
+
+3. RATING TRUNG BÌNH THEO KHÁCH SẠN VÀ LOẠI PHÒNG
+room_type    Deluxe Standard     Suite      TỔNG
+hotel_id                                        
+HOT100            -        -  2.888889  2.888889
+HOT101         3.25        -         -      3.25
+HOT102            -      3.8         -       3.8
+HOT103          4.0        -         -       4.0
+HOT104     3.181818        -         -  3.181818
+HOT105          3.4        -         -       3.4
+HOT106            -      3.2         -       3.2
+HOT107            -        -  4.333333  4.333333
+HOT108            -        -       4.2       4.2
+HOT109          3.6        -         -       3.6
+TỔNG        3.46875      3.5      3.65  3.532258
+
+4. XẾP HẠNG KHÁCH SẠN THEO RATING TRUNG BÌNH
+1. HOT107 (Homestay E): 4.33
+2. HOT108 (Resort D): 4.20
+3. HOT103 (khach san b): 4.00
+4. HOT102 (Resort D): 3.80
+5. HOT109 (Homestay E): 3.60
+6. HOT105 (Hotel C): 3.40
+7. HOT101 (Resort D): 3.25
+8. HOT106 (khach san b): 3.20
+9. HOT104 (Resort D): 3.18
+10. HOT100 (khach san b): 2.89
